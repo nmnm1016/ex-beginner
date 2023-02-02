@@ -12,7 +12,7 @@ public class UserForm {
 	private String age;
 	@NotBlank(message = "コメントは必須です")
 	private String comment;
-
+//testのため
 	public String getName() {
 		return name;
 	}
