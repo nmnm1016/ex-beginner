@@ -19,11 +19,11 @@ public class Exam01Controller {
 	public String index() {
 		return "exam01";
 	}
-	
+
 	@PostMapping("/result")
 	public String result(String name) {
 		session.setAttribute("name", name);
 		return "exam01-result";
-		
+
 	}
 }
