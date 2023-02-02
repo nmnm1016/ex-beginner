@@ -20,7 +20,7 @@ public class Exam03Contoller {
 		return "exam03";
 	}
 
-	@PostMapping("/sendItems")
+	@PostMapping("/culcItems")
 	public String sendNum(String item1, String item2, String item3) {
 		application.setAttribute("item1", item1);
 		application.setAttribute("item2", item2);
