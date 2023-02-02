@@ -20,8 +20,8 @@ public class Exam02Controller {
 		return "exam02";
 	}
 
-	@PostMapping("/sendNum")
-	public String sendNum(int num1, int num2) {
+	@PostMapping("/culcNum")
+	public String culcNum(int num1, int num2) {
 		session.setAttribute("num1", num1);
 		session.setAttribute("num2", num2);
 

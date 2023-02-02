@@ -21,7 +21,7 @@ public class Exam03Contoller {
 	}
 
 	@PostMapping("/culcItems")
-	public String sendNum(String item1, String item2, String item3) {
+	public String culcNum(String item1, String item2, String item3) {
 		application.setAttribute("item1", item1);
 		application.setAttribute("item2", item2);
 		application.setAttribute("item3", item3);
